@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fb;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 30px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 45px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.search-area input {
+    margin-top: 10px;
+    padding: 8px;
+    width: 250px;
+}
+
+/* ===== FILTERS ===== */
+.filters {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* ===== EVENTS ===== */
+.events {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin: 0 0 10px;
+}
+
+.card button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* ===== PAGINATION ===== */
+.pagination {
+    text-align: center;
+    padding: 20px;
+}
+
+.pagination button {
+    padding: 6px 12px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+footer a {
+    color: #93c5fd;
+    margin: 0 8px;
+}
