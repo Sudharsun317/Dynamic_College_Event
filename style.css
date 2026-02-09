@@ -12,7 +12,7 @@ html {
 
 body {
     margin: 0;
-    background: #80aaff;
+    background: linear-gradient(blue,red);
 
     display: flex;
     flex-direction: column;
@@ -201,4 +201,5 @@ footer a {
     color: #93c5fd;
     margin: 0 8px;
 }
+
 
