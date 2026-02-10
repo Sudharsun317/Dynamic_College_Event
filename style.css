@@ -16,7 +16,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height:150px;
+    min-height:00px;
 }
 
 
@@ -27,7 +27,7 @@ header {
     color: white;
     padding: 15px 30px;
     display: flex;
-    gap: 1180px;
+    gap: 1150px;
     height: 60px;
 }
 
@@ -137,6 +137,10 @@ select:focus, input:focus {
     margin: 0 0 100px;
 }
 
+.event-img{
+    width: 250px;
+}
+
 .card button {
     background: #2563eb;
     color: white;
@@ -201,5 +205,3 @@ footer a {
     color: #93c5fd;
     margin: 0 8px;
 }
-
-
